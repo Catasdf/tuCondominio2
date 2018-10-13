@@ -2,133 +2,165 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="static/css/master.css"/>
+	<link href="static/css/mdb.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+
 	<title>Tu Condominio v2</title>
 </head>
 <body>
-	<div class="row">
-		<div class="col-lg-2 col-md-2 col-sm-12">
-			<div class="list-group" id="list-tab" role="tablist">
-				<a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-				<a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-				<a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-				<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-			</div>
-		</div>
-		<div class="col-lg-10 col-md-10 col-sm-12 mindmap">
-			<div class="tab-content" id="nav-tabContent">
-				<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-					<!--MindMap-->
-					<div class="row">
-						<div class="col-lg-4">
-
-							<div class="map">
-								<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis
-								</p>
-							</div>
-						</div>
-
-						<div class="col-lg-4">
-
-						</div>
-
-						<div class="col-lg-4">
-							<div class="map right">
-									<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4"></div>
-						<div class="col-lg-4">
-							<div class="map center">
-								<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4"></div>
-					</div>	
-										<div class="row">
-						<div class="col-lg-4">
-
-							<div class="map">
-								<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis
-								</p>
-							</div>
-						</div>
-
-						<div class="col-lg-4">
-
-						</div>
-
-						<div class="col-lg-4">
-							<div class="map right">
-									<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis
-								</p>
-							</div>
-						</div>
-					</div>
-					<!--End MindMap-->
+	<div class="contenedor">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 menu">
+				<div class="list-group" id="list-tab" role="tablist">
+					<li class="list-group-item disabled font-weight-bold">Tu Condominio Hoy <i class="fa fa-building" aria-hidden="true"></i></li>
+					<a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+					<a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+					<a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+					<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
 				</div>
-				<div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Profile</div>
-				<div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Messages</div>
-				<div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Settings</div>
+			</div>
+			<div class="col-lg-9 col-md-9 col-sm-12 mindmap">
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+						<!--MindMap-->
+						<div class="row">
+							<div class="col-lg-4">
+
+								<div class="map">
+									<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis
+									</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4">
+
+							</div>
+
+							<div class="col-lg-4">
+								<div class="map right">
+									<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-4"></div>
+							<div class="col-lg-4">
+								<div class="map center">
+									<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis
+									</p>
+								</div>
+							</div>
+							<div class="col-lg-4"></div>
+						</div>	
+						<div class="row">
+							<div class="col-lg-4">
+
+								<div class="map">
+									<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis
+									</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4">
+
+							</div>
+
+							<div class="col-lg-4">
+								<div class="map right">
+									<p data-trigger="hover" data-toggle="popover" data-placement="bottom" title="Detalles" data-content="Un texto especial.">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis
+									</p>
+								</div>
+							</div>
+						</div>
+						<!--End MindMap-->
+					</div>
+					<div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Profile</div>
+					<div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Messages</div>
+					<div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Settings</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-
-
+<!--
 	<footer>
-		<!-- Footer Links -->
 		<div class="container-fluid text-md-left row">
-
-
-			<!-- Grid column -->
 			<div class="col-md-6 text-dark text-left">
-
-				<!-- Content -->
 				<h5>Linda</h5>
 				<p>Administradora de edificios y condominios</p>
 				<p>Inacap</p>
-
 			</div>
 
 			<div class="col-md-6 text-dark text-right">
-				<!-- Content -->
 				<h5>Juan Pablo Núñez</h5>
 				<p>Egresado prevención de riesgo</p>
 				<p>Administrador de edificios y condominios</p>
 				<p>Inacap</p>
-
-
 			</div>
-			<!-- Grid column -->
-			<!-- Footer Links -->
-			<!-- Copyright -->
+		</div>
+	</footer>
+-->
+
+<!-- Footer -->
+<footer class="page-footer info-color pt-4">
+
+	<!-- Footer Links -->
+	<div class="container">
+
+		<div class="row pt-4">
+
+			<div class="col-md-6 col-lg-6 my-4 ">
+
+				<!-- Content -->
+				<h5 class="font-weight-bold text-uppercase mb-4 text-md-center">Linda Peralta</h5>
+				<p class="text-md-left">Administradora de edificios y condominios</p>
+				<p class="text-md-left">Inacap</p>
+			</div>
+
+			<div class="col-md-6 col-lg-6 my-4">
+
+				<!-- Content -->
+				<h5 class="font-weight-bold text-uppercase mb-4 text-md-center">Juan Pablo Núñez</h5>
+				<p class="text-md-right">Egresado prevención de riesgo</p>
+				<p class="text-md-right">Administradora de edificios y condominios</p>
+				<p class="text-md-right">Inacap</p>
+			</div>
+
 		</div>
 
-	</footer>
+	</div>
+	<!-- Footer Links -->
+
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">© 2018 Copyright:
+		<a href="#">Catasdf</a>
+	</div>
+	<!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
 </body>
 
 <script src="static/js/jquery.min.js"></script>
 <script src="static/js/popper.min.js"></script>
 <script src="static/js/bootstrap.min.js"></script>
 <script src="static/js/js.js"></script>
+<script src="static/js/mdb.min.js"></script>
 </html>

@@ -2,12 +2,23 @@ body{
 	font-family: 'Kodchasan', sans-serif;
 	margin:30px;
 }
+
+.menu{
+	min-height: 700px;
+	/*min-width: 80px;*/
+	z-index: 1;
+}
+
+.contenedor{
+	min-height: 700px;
+	z-index: 0;
+}
+
 .text-dark{
 	color:#dbdde0;
 }
 .mindmap{
 	padding:30px;
-
 }
 
 .map{
