@@ -4,9 +4,7 @@ body{
 }
 
 .menu{
-	min-height: 700px;
-	/*min-width: 80px;*/
-	z-index: 1;
+	min-height: 100px;
 }
 
 .contenedor{
@@ -35,12 +33,10 @@ body{
 	transform: scale(1.1);
 	transition: 0.6s;
 }
-.left{
 
-}
-.center{
-
-}
-.right{
-
+@media (min-width: 992px) { 
+	.menu {
+		min-height: 700px;
+		z-index: 1;
+	}
 }
